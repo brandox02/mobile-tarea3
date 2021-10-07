@@ -3,6 +3,16 @@
     "name": "myFirstApp",
     "slug": "myFirstApp",
     "version": "1.0.0",
+    "description": "the first react native app of brandox",
+    "orientation": "portrait", 
+    "icon": "./assets/homework.png",
+    "android": {
+      "package": "com.brandox02company.myFirstApp",
+      "versionCode": 1
+    },
+    "ios": {
+      "supportsTablet": true
+    },
     "assetBundlePatterns": [
       "**/*"
     ]
